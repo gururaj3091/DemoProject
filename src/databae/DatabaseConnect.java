@@ -28,7 +28,7 @@ public class DatabaseConnect {
 		while(rs.next())
 		{
 			String code = rs.getString(1);								        
-            String country = rs.getString(2);					                               
+            String country = rs.getString(2);
             System. out.println(code+"  "+country);
 		}
 		

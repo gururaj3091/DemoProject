@@ -46,7 +46,6 @@ public class BaseTest {
 		}
 		driver.get("http://localhost:8888");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		
 	}
 	
 	@AfterMethod
